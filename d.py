@@ -9,7 +9,7 @@ if deskriminant < 0:
 elif deskriminant > 0:
     x1 = (-b+deskriminant**(1/2))/(2*a)    
     x2 = (-b-deskriminant**(1/2))/(2*a)
-    print(x1, "\n", x2)
+    print(f"x1 = {x1}n\x2 = {x2})
 else:
     x1 = -b/(2*a)
-    print(x1)
+    print(f"x1 = {x1}")
